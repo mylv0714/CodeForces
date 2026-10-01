@@ -4,7 +4,7 @@
     {
       "label": "Compile and Run C++",
       "type": "shell",
-      "command": "g++ -O2 -std=c++17 -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\"",
+      "command": "g++ -O2 -std=c++17 -o \"${env:TEMP}\\${fileBasenameNoExtension}.exe\" \"${file}\" && \"${env:TEMP}\\${fileBasenameNoExtension}.exe\"",
       "options": {
         "cwd": "${fileDirname}",
         "shell": {
