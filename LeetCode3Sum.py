@@ -1,4 +1,4 @@
-# 아래는 투 포인터 알고리즘
+# 투 포인터 알고리즘
 class Solution:
     def threeSumClosest(self, nums: list[int], target: int) -> int:
         nums.sort()
@@ -19,7 +19,7 @@ class Solution:
                         right -= 1
         return ret
         
-# 아래는 Brute Force로 시간초과
+# Brute Force로 시간초과
 """
 class Solution:
     def threeSumClosest(self, nums: list[int], target: int) -> int:
