@@ -27,5 +27,5 @@ class Solution:
                     st.append(aster)
         return st
 
-list = [1,-1,-2,-2]
-print(Solution().asteroidCollision(list))
+# list = [1,-1,-2,-2]
+# print(Solution().asteroidCollision(list))
