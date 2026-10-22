@@ -8,7 +8,8 @@ class Solution:
             cbit = (c >> i) & 1
 
             if cbit == 1:
-                ans += 1-(abit^bbit)
+                if abit == 0 and bbit == 0:
+                    ans+=1
             else:
                 ans += abit+bbit
         return ans
